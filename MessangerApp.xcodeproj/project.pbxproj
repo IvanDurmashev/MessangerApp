@@ -7,19 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D10A77329460A0F0066E847 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A77229460A0F0066E847 /* PeopleView.swift */; };
 		1D18EE03293B69C50006634C /* MessangerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE02293B69C50006634C /* MessangerAppApp.swift */; };
 		1D18EE05293B69C50006634C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE04293B69C50006634C /* ContentView.swift */; };
 		1D18EE07293B69C70006634C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE06293B69C70006634C /* Assets.xcassets */; };
 		1D18EE0B293B69C70006634C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE0A293B69C70006634C /* Preview Assets.xcassets */; };
+		1D18EE13293B6CF10006634C /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE12293B6CF10006634C /* Gilroy-Semibold.ttf */; };
+		1D18EE18293B72920006634C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE17293B72920006634C /* Color.swift */; };
+		1D18EE1D293B81CA0006634C /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE1C293B81CA0006634C /* LaunchScreen.swift */; };
+		1D18EE20293B82320006634C /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE1F293B82320006634C /* Text+Extension.swift */; };
+		1D18EE27293B84BC0006634C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18EE26293B84BC0006634C /* LoginView.swift */; };
+		1D18EE29293B8E7E0006634C /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE28293B8E7E0006634C /* Gilroy-Medium.ttf */; };
+		1D18EE2B293B9B050006634C /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE2A293B9B050006634C /* Gilroy-Bold.ttf */; };
+		1D18EE2D293B9B9F0006634C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D18EE2C293B9B9F0006634C /* Colors.xcassets */; };
+		1DC4B34B2943B59900814E55 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DC4B34A2943B59900814E55 /* Roboto-Medium.ttf */; };
+		1DCBAF5129412A87003175D6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCBAF5029412A87003175D6 /* ChatView.swift */; };
+		1DCBAF5529412F29003175D6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DCBAF5429412F29003175D6 /* Roboto-Regular.ttf */; };
+		1DD49CF52977BA0000215F57 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 1DD49CF42977BA0000215F57 /* TabBar */; };
+		1DD49CFB2977C04600215F57 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49CFA2977C04600215F57 /* Item.swift */; };
+		1DD49CFE2977C1A800215F57 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49CFD2977C1A800215F57 /* SearchBar.swift */; };
+		1DD49D012977C31D00215F57 /* HitChatGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D002977C31D00215F57 /* HitChatGroup.swift */; };
+		1DD49D032977C56600215F57 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D022977C56600215F57 /* Icon.swift */; };
+		1DD49D062977C5F400215F57 /* HitPeopleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D052977C5F400215F57 /* HitPeopleGroup.swift */; };
+		1DD49D082977C6DC00215F57 /* CustomTabItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D072977C6DC00215F57 /* CustomTabItemStyle.swift */; };
+		1DD49D0A2977C6FB00215F57 /* CustomTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D092977C6FB00215F57 /* CustomTabBarStyle.swift */; };
+		1DD49D0C2977C8D000215F57 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D0B2977C8D000215F57 /* Font+Extension.swift */; };
+		1DD49D102977CCD200215F57 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D0F2977CCD200215F57 /* RoundedButton.swift */; };
+		1DD49D122977CD2800215F57 /* SignInGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D112977CD2800215F57 /* SignInGroup.swift */; };
+		1DD49D142977CD6500215F57 /* ForgutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD49D132977CD6500215F57 /* ForgutButton.swift */; };
+		1DF8B79029523B1A00E1DC67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF8B78F29523B1A00E1DC67 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D10A77229460A0F0066E847 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		1D18EDFF293B69C50006634C /* MessangerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessangerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D18EE02293B69C50006634C /* MessangerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessangerAppApp.swift; sourceTree = "<group>"; };
 		1D18EE04293B69C50006634C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D18EE06293B69C70006634C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D18EE08293B69C70006634C /* MessangerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessangerApp.entitlements; sourceTree = "<group>"; };
 		1D18EE0A293B69C70006634C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D18EE12293B6CF10006634C /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		1D18EE17293B72920006634C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1D18EE19293B80F50006634C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D18EE1C293B81CA0006634C /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		1D18EE1F293B82320006634C /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		1D18EE26293B84BC0006634C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1D18EE28293B8E7E0006634C /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		1D18EE2A293B9B050006634C /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		1D18EE2C293B9B9F0006634C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1DC4B34A2943B59900814E55 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1DCBAF5029412A87003175D6 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		1DCBAF5429412F29003175D6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1DD49CFA2977C04600215F57 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1DD49CFD2977C1A800215F57 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1DD49D002977C31D00215F57 /* HitChatGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitChatGroup.swift; sourceTree = "<group>"; };
+		1DD49D022977C56600215F57 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		1DD49D052977C5F400215F57 /* HitPeopleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitPeopleGroup.swift; sourceTree = "<group>"; };
+		1DD49D072977C6DC00215F57 /* CustomTabItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemStyle.swift; sourceTree = "<group>"; };
+		1DD49D092977C6FB00215F57 /* CustomTabBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarStyle.swift; sourceTree = "<group>"; };
+		1DD49D0B2977C8D000215F57 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		1DD49D0F2977CCD200215F57 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1DD49D112977CD2800215F57 /* SignInGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInGroup.swift; sourceTree = "<group>"; };
+		1DD49D132977CD6500215F57 /* ForgutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgutButton.swift; sourceTree = "<group>"; };
+		1DF8B78F29523B1A00E1DC67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD49CF52977BA0000215F57 /* TabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +103,18 @@
 		1D18EE01293B69C50006634C /* MessangerApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D18EE19293B80F50006634C /* Info.plist */,
 				1D18EE02293B69C50006634C /* MessangerAppApp.swift */,
 				1D18EE04293B69C50006634C /* ContentView.swift */,
-				1D18EE06293B69C70006634C /* Assets.xcassets */,
+				1D18EE1C293B81CA0006634C /* LaunchScreen.swift */,
+				1DD49D0E2977CBFB00215F57 /* LoginView */,
+				1DF8B78F29523B1A00E1DC67 /* MainView.swift */,
+				1DD49CFF2977C30500215F57 /* ChatView */,
+				1DD49D042977C5B300215F57 /* PeopleView */,
+				1DD49CFC2977C19300215F57 /* CommonViews */,
+				1DD49CF62977C00000215F57 /* TabBar */,
+				1D18EE1E293B82020006634C /* Extensions */,
+				1DD49D0D2977C92000215F57 /* Resourses */,
 				1D18EE08293B69C70006634C /* MessangerApp.entitlements */,
 				1D18EE09293B69C70006634C /* Preview Content */,
 			);
@@ -67,6 +127,102 @@
 				1D18EE0A293B69C70006634C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D18EE11293B6CCF0006634C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1DCBAF5329412EAE003175D6 /* Roboto */,
+				1DCBAF5229412EA0003175D6 /* Gilroy */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1D18EE1E293B82020006634C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D18EE1F293B82320006634C /* Text+Extension.swift */,
+				1DD49D0B2977C8D000215F57 /* Font+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DCBAF5229412EA0003175D6 /* Gilroy */ = {
+			isa = PBXGroup;
+			children = (
+				1D18EE12293B6CF10006634C /* Gilroy-Semibold.ttf */,
+				1D18EE28293B8E7E0006634C /* Gilroy-Medium.ttf */,
+				1D18EE2A293B9B050006634C /* Gilroy-Bold.ttf */,
+			);
+			path = Gilroy;
+			sourceTree = "<group>";
+		};
+		1DCBAF5329412EAE003175D6 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				1DCBAF5429412F29003175D6 /* Roboto-Regular.ttf */,
+				1DC4B34A2943B59900814E55 /* Roboto-Medium.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		1DD49CF62977C00000215F57 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1DD49CFA2977C04600215F57 /* Item.swift */,
+				1DD49D092977C6FB00215F57 /* CustomTabBarStyle.swift */,
+				1DD49D072977C6DC00215F57 /* CustomTabItemStyle.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1DD49CFC2977C19300215F57 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				1DD49CFD2977C1A800215F57 /* SearchBar.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		1DD49CFF2977C30500215F57 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				1DCBAF5029412A87003175D6 /* ChatView.swift */,
+				1DD49D002977C31D00215F57 /* HitChatGroup.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		1DD49D042977C5B300215F57 /* PeopleView */ = {
+			isa = PBXGroup;
+			children = (
+				1D10A77229460A0F0066E847 /* PeopleView.swift */,
+				1DD49D052977C5F400215F57 /* HitPeopleGroup.swift */,
+			);
+			path = PeopleView;
+			sourceTree = "<group>";
+		};
+		1DD49D0D2977C92000215F57 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1D18EE06293B69C70006634C /* Assets.xcassets */,
+				1D18EE2C293B9B9F0006634C /* Colors.xcassets */,
+				1D18EE17293B72920006634C /* Color.swift */,
+				1DD49D022977C56600215F57 /* Icon.swift */,
+				1D18EE11293B6CCF0006634C /* Font */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		1DD49D0E2977CBFB00215F57 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				1D18EE26293B84BC0006634C /* LoginView.swift */,
+				1DD49D112977CD2800215F57 /* SignInGroup.swift */,
+				1DD49D0F2977CCD200215F57 /* RoundedButton.swift */,
+				1DD49D132977CD6500215F57 /* ForgutButton.swift */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +241,9 @@
 			dependencies = (
 			);
 			name = MessangerApp;
+			packageProductDependencies = (
+				1DD49CF42977BA0000215F57 /* TabBar */,
+			);
 			productName = MessangerApp;
 			productReference = 1D18EDFF293B69C50006634C /* MessangerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 1D18EDF6293B69C50006634C;
+			packageReferences = (
+				1DD49CF32977BA0000215F57 /* XCRemoteSwiftPackageReference "TabBar" */,
+			);
 			productRefGroup = 1D18EE00293B69C50006634C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +289,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC4B34B2943B59900814E55 /* Roboto-Medium.ttf in Resources */,
+				1D18EE13293B6CF10006634C /* Gilroy-Semibold.ttf in Resources */,
+				1DCBAF5529412F29003175D6 /* Roboto-Regular.ttf in Resources */,
+				1D18EE29293B8E7E0006634C /* Gilroy-Medium.ttf in Resources */,
+				1D18EE2B293B9B050006634C /* Gilroy-Bold.ttf in Resources */,
+				1D18EE2D293B9B9F0006634C /* Colors.xcassets in Resources */,
 				1D18EE0B293B69C70006634C /* Preview Assets.xcassets in Resources */,
 				1D18EE07293B69C70006634C /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +307,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD49D0A2977C6FB00215F57 /* CustomTabBarStyle.swift in Sources */,
+				1DF8B79029523B1A00E1DC67 /* MainView.swift in Sources */,
 				1D18EE05293B69C50006634C /* ContentView.swift in Sources */,
+				1DD49D032977C56600215F57 /* Icon.swift in Sources */,
+				1DD49D142977CD6500215F57 /* ForgutButton.swift in Sources */,
+				1DD49CFB2977C04600215F57 /* Item.swift in Sources */,
+				1D18EE27293B84BC0006634C /* LoginView.swift in Sources */,
+				1DD49D082977C6DC00215F57 /* CustomTabItemStyle.swift in Sources */,
+				1D10A77329460A0F0066E847 /* PeopleView.swift in Sources */,
+				1DD49CFE2977C1A800215F57 /* SearchBar.swift in Sources */,
+				1DD49D062977C5F400215F57 /* HitPeopleGroup.swift in Sources */,
+				1D18EE1D293B81CA0006634C /* LaunchScreen.swift in Sources */,
+				1DD49D122977CD2800215F57 /* SignInGroup.swift in Sources */,
+				1D18EE18293B72920006634C /* Color.swift in Sources */,
+				1DCBAF5129412A87003175D6 /* ChatView.swift in Sources */,
+				1DD49D102977CCD200215F57 /* RoundedButton.swift in Sources */,
+				1DD49D012977C31D00215F57 /* HitChatGroup.swift in Sources */,
 				1D18EE03293B69C50006634C /* MessangerAppApp.swift in Sources */,
+				1D18EE20293B82320006634C /* Text+Extension.swift in Sources */,
+				1DD49D0C2977C8D000215F57 /* Font+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +455,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessangerApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +494,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessangerApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -354,6 +542,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DD49CF32977BA0000215F57 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DD49CF42977BA0000215F57 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DD49CF32977BA0000215F57 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D18EDF7293B69C50006634C /* Project object */;
 }
